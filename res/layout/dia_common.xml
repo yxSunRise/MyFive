@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_dia_common"
+        android:textColor="@android:color/secondary_text_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="7sp" />
+
+    <ImageView
+        android:id="@+id/iv_dia_common"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+</LinearLayout>

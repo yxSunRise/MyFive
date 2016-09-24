@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:paddingLeft="40dp"
+        android:id="@+id/tv_dia_common"
+        android:textColor="@android:color/secondary_text_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你一定是故意的"
+        android:paddingTop="7sp" />
+
+    <ImageView
+        android:paddingTop="2dp"
+        android:id="@+id/iv_dia_common"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/xiaoku" />
+    <ImageView
+        android:paddingTop="2dp"
+        android:id="@+id/iv_dia_common"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/xiaoku" />
+    <TextView
+        android:id="@+id/tv_dia_common"
+        android:textColor="@android:color/secondary_text_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  鄙视"
+        android:paddingTop="7sp" />
+    
+    <ImageView
+        android:id="@+id/iv_dia_common"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/bishi" />
+
+</LinearLayout>

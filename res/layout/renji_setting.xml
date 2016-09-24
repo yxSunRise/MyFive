@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5sp"
+            android:text="搜索步数:"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="80sp"
+            android:layout_height="40sp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/renji_setting_tv_recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:text="建议设置在4以下"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/renji_setting_iv_heixian"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:paddingTop="3sp"
+            android:src="@drawable/heixian" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="行:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etrow"
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:inputType="numberDecimal" >
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="列:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etcol"
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="先手方: "
+            android:paddingTop="14sp"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_huaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="玩家" />
+
+            <RadioButton
+                android:id="@+id/radio_ai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电脑" />
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="音量:"
+            android:paddingTop="5sp"
+            android:textSize="16sp" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:layout_weight="1" />
+        
+        </LinearLayout>
+
+</LinearLayout>
